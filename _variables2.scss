@@ -1,0 +1,60 @@
+$Colores:(
+    color-primario: red,
+    color-secundario: blue,
+    color-terciario: green,
+    color-texto-primario: black,
+    color-texto-secundario: gray,
+    color-texto-terciario: rgba(197, 191, 191, 0.959),
+);
+
+$Espaciado:(
+    espaciado-s: 5px,
+    espaciado-m: 10px,
+    espaciado-l: 20px,
+    espaciado-xl: 40px,
+);
+
+$tipografias:(
+    tipografía-principal: font-family 'Cormorant Garamond', serif,
+    tipografía-secundario: font-family 'Libre Baskerville', serif,
+    tipografia-terciario: font-family 'Great Vibes', cursive,
+    text-weight-principal: bold,
+    text-decoration-principal: underline,
+    );
+
+$contenedor-flex: flex;
+$contenedor-grid: grid;
+$justify-between: space-between;
+$align-items: center;
+$justify-texto: center;
+
+
+
+$color-primario: red;
+$color-secundario: blue;
+$color-terciario: green;
+$color-texto-primario: black;
+$color-texto-secundario: gray;
+$color-texto-terciario: rgba(197, 191, 191, 0.959);
+
+
+
+$espaciado-s: 5px;
+$espaciado-m: 10px;
+$espaciado-l: 20px;
+$espaciado-xl: 40px;
+
+
+
+$tipografía-principal: font-family 'Cormorant Garamond', serif;
+$tipografía-secundario: font-family 'Libre Baskerville', serif;
+$tipografia-terciario: font-family 'Great Vibes', cursive;
+$text-weight-principal: bold;
+$text-decoration-principal: underline;
+
+
+$contenedor-flex: flex;
+$contenedor-grid: grid;
+$justify-between: space-between;
+$align-items: center;
+$justify-texto: center;

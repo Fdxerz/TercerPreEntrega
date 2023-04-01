@@ -1,0 +1,23 @@
+
+
+.header {
+    .navbar-nav{
+        .nav-item{
+            .nav-link {
+    text-decoration: underline;
+}
+}
+}   
+}
+
+.nav-link {
+    text-decoration: underline;
+}
+
+.nav-link:hover {
+    opacity: 0.2;
+}
+
+.nav-link:visited {
+    color: rgba(70, 26, 182, 0.576)
+}

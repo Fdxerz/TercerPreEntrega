@@ -1,0 +1,133 @@
+body {
+  background: #70e1f5;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffd194, #70e1f5);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: Raleway;
+  font-size: 2rem;
+}
+
+.align_center {
+  text-align: center;
+}
+
+.align_left {
+  text-align: left;
+}
+
+.card:hover {
+  opacity: 0.4;
+}
+
+.header .navbar-nav .nav-item .nav-link {
+  text-decoration: underline;
+}
+
+.nav-link {
+  text-decoration: underline;
+}
+
+.nav-link:hover {
+  opacity: 0.2;
+}
+
+.nav-link:visited {
+  color: rgba(70, 26, 182, 0.576);
+}
+
+body main section h1 {
+  color: orange;
+}
+
+h2, h1 {
+  color: blue;
+  text-decoration: underline;
+}
+
+h1 {
+  color: red;
+  text-align: center;
+}
+
+.negrita {
+  font-weight: bold;
+}
+
+.v1 img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.FondoGris1 {
+  color: white;
+  background-color: rgb(61, 59, 59);
+}
+
+footer nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+@media (max-width: 1024px) {
+  body {
+    font-size: 1.8rem;
+  }
+}
+@media (max-width: 768px) {
+  body {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 576px) {
+  body {
+    font-size: 1.2rem;
+  }
+}
+/*
+.servicios_img {
+width: 400px;
+height: 400px;}
+
+
+.servicios_txt
+{text-align: center;
+font-size: 2rem;
+font-weight: bolder;}
+
+.asdasdasd img{
+    width: 5%;
+    height: 5%;
+    object-fit: cover;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ColorRed {text-align: center;
+color: red;
+font-family: Alex Brush;
+font-size: 90px;
+text-decoration: underline;
+}
+
+.ColorBlue {
+    color: blue;
+    text-decoration: underline;
+    font-style: italic;}
+
+.ColorGreen {
+    color: green;
+text-decoration: underline;}
+
+#BoxModel {
+    padding: 50px;
+    width: 1700px;
+    margin-right: auto;
+    border: 15px solid blue;
+}
+*//*# sourceMappingURL=styles.css.map */

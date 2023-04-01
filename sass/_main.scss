@@ -1,0 +1,36 @@
+body {
+    main {
+        section {
+            h1 {color: orange;}
+        }
+    }
+}
+
+
+h2 {
+    color: map-get($Colores, color-secundario);
+    text-decoration: $text-decoration-principal;
+}
+
+h1 {@extend h2;
+    color: map-get($Colores, color-primario);
+    text-align: center;
+}
+
+.negrita {
+    font-weight: $text-weight-principal; 
+
+}
+
+.v1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.FondoGris1 {
+    color: white;
+    background-color: rgb(61, 59, 59);
+}
